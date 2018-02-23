@@ -1,0 +1,7 @@
+vars:
+  - PORT
+data:
+  PORT:
+    title: Port required
+    default: 1080
+    type: integer
