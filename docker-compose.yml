@@ -3,7 +3,7 @@ version: '2'
 services:
   maildev:
     container_name: ledup-test-maildev
-    image: ledup/maildev
+    image: ledup/maildev:2.0
     hostname: maildev
     ports:
       - "1080:80"
