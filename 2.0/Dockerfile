@@ -1,4 +1,4 @@
-FROM maildev/maildev:2.0.2
+FROM maildev/maildev:2.0.5
 LABEL org.opencontainers.image.authors="David Gaussinel <dgaussinel@prestaconcept.net>"
 CMD ["--web", "80", "--smtp", "25"]
 HEALTHCHECK --interval=10s --timeout=1s \

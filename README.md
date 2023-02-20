@@ -5,7 +5,7 @@ Docker image for Maildev used by led: <https://github.com/maildev/maildev>
 ## Includes
 
 - Maildev 1.1.1
-- Maildev 2.0.2
+- Maildev 2.0.5
 
 ## Usage
 
