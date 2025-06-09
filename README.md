@@ -6,12 +6,12 @@ Docker image for Maildev used by led: <https://github.com/maildev/maildev>
 
 - Maildev 1.1.1
 - Maildev 2.0.5
+- Maildev 2.2.1
 
 ## Usage
 
 Use the official image. Just label it as managed by led.
 
-- default command is overrided to ensure extension STARTTLS is disabled.
 - Maildev listens on port 25 (SMTP) and 80 (WebUI). You can map `1080` instead `80` in your local `docker-compose.yml`
 
 

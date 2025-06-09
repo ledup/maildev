@@ -1,12 +1,10 @@
-version: '2'
-
 services:
   maildev:
     container_name: ledup-test-maildev
-    image: ledup/maildev:2.0
+    image: ledup/maildev:2.2
     hostname: maildev
     ports:
       - "1080:80"
     extends:
-        file: ~/.led/docker-base.yaml
+        file: $HOME/.led/docker-base.yaml
         service: localuser
