@@ -1,7 +1,13 @@
 vars:
   - PORT
+  - VERSION
 data:
   PORT:
     title: Port required
     default: 1080
     type: integer
+  VERSION:
+    title: maildev version required
+    default: 3.0
+    type: list
+    items: 2.0 2.2 3.0
